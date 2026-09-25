@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0126D4224A6676AB20428842 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = E1EB75248FDD644B41731004 /* OneSignalInAppMessages */; };
+		06C22F610F94EDAA0148B6D9 /* StallageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38921B2835CBF8AAC3DCA248 /* StallageTests.swift */; };
+		15EFBB89B10ABE6B19401ED2 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7A1917041A29C2322D44A7F9 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		19E2CCE820F9708BF3F98023 /* CribSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B494151E48A90D867BF2460 /* CribSegment.swift */; };
+		1B1CABEAE72AC7334168FA42 /* LifecycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3553E676B193F0805EE8DE41 /* LifecycleView.swift */; };
+		1CE34DA4A720627859750C30 /* CribSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB77D78420BEFFF7CD8B567A /* CribSettings.swift */; };
+		254F84C4B9710DBB9166C080 /* CribOnboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF821951221E430F81BAA7CB /* CribOnboard.swift */; };
+		27D8C83B8E823FBA51159445 /* Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD49D5B53D9B5501F8476A36 /* Seat.swift */; };
+		32307F69F4B9F7A439184516 /* CribShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA09848511FCB3015E1042E /* CribShell.swift */; };
+		3340839A431566C34FDC1BE9 /* CribHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD290F4B429E5EB90E080179 /* CribHold.swift */; };
+		3BA8E9E8B3247FFEA445389D /* CribStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF988EACB2C0B4AF236441C /* CribStore.swift */; };
+		3D38769AD34909658BD00FAF /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC00D27C733289617D86D4 /* FamilyInvariantTests.swift */; };
+		47867A02F87ECCD8A32450FA /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9404B93DF340D3CC360EE /* APIConfig.swift */; };
+		4968AFAC322B6AE97CCA7FE7 /* TrailMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77553D0D1C4931E9BF4EB95 /* TrailMark.swift */; };
+		4FF130F5E8810D2C717945FC /* CribMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C3DDDF6D1F152F0444959 /* CribMark.swift */; };
+		585D21EFD12CC84F2687E84E /* CribSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1E11501C7FB16D8428FD2 /* CribSeed.swift */; };
+		5C1287289B357E189B0D1BB8 /* CribCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC803E0D9AD24C4B31F9AD8C /* CribCodec.swift */; };
+		6032A42916460545D7E2AE37 /* CribWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C1A8E0C5487FCAD3574346 /* CribWatchTests.swift */; };
+		61FF4A62BF7B88808198C721 /* CribInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A01F7180224132E086D450 /* CribInk.swift */; };
+		640EC4BBDA51D9DF4C1846D4 /* StallageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19484F4670A584146004B117 /* StallageApp.swift */; };
+		64F923679E15F9FEE50EF214 /* SeatHopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7F1F703EAD2A6AF93FD52 /* SeatHopTests.swift */; };
+		6819FB818582B420D8A7AC72 /* StallDuty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293FE50CAD59490AD03CFDA /* StallDuty.swift */; };
+		6882B206B09B71140ED28FF0 /* SeatHop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A01EF907C66A37CD443FAF8 /* SeatHop.swift */; };
+		78847DEA50BBF6AC55835106 /* HopTrailPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300797008FFE03F18D3692A /* HopTrailPane.swift */; };
+		7B95346033947A60E4F34CE2 /* TagFuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8BD8C71B9944C3364312D2 /* TagFuse.swift */; };
+		8546B9FD9B982D6AC5A35699 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7875937D8D0982AA76A06407 /* Alamofire */; };
+		8621CBF808DB472FFBBF189B /* CribLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBC671BAE4959DA9360A13 /* CribLaunchTests.swift */; };
+		8687B0031592D59A74064C03 /* CribClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7336A246593CF5BC1AF0B894 /* CribClientTests.swift */; };
+		8834948CBBDCCF1F1675A41C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7868DEA3FC1B589FC1657B06 /* ContentView.swift */; };
+		887F64DFABB986B5FD61978A /* CribStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C969BC8798FE8F453A117E /* CribStoreTests.swift */; };
+		8CCDE909FC3BECBD9880BEE5 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7B39061B66A990727807E3DF /* OneSignalFramework */; };
+		9032BE72EE55CDBB63475A39 /* CribFigures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165ED06360EE9DD79A3DA303 /* CribFigures.swift */; };
+		925B4B0D8B4729F9C84A0A55 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C999DB66AC33183BA4D56 /* NotificationService.swift */; };
+		A0804DC01938C27E1032894D /* Stall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439A243D9B8D985330E603D8 /* Stall.swift */; };
+		A3D6DE804617E8431E94BF0B /* CribDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FD9889C7F0993184B1D83D /* CribDay.swift */; };
+		A7193FD548EA0095B0537B86 /* TagMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251FEC44C3A29526008EC3EA /* TagMark.swift */; };
+		A805E14D7A8924C4B854BC76 /* Crib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6B3F020BBB75B428FD1A38 /* Crib.swift */; };
+		A840AB4623CA4C4A5E9F99B5 /* OpenStallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A166FB01D5BEBCC2E9825A7 /* OpenStallView.swift */; };
+		A990325D6E0ABC9B9D8F00A6 /* TagLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D023A844F703A72ABA1E51A5 /* TagLine.swift */; };
+		A9B6419A8B9FC03EF228D7CD /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64BD677BA63AFA04B68DB69 /* Tag.swift */; };
+		AA89F77FB7EA6C93BAF79D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BEED22BAA4415746173C7A /* Assets.xcassets */; };
+		ADD757BE72A24A53F6F30BE9 /* CribClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B7B32F928E38A1AFE6CB03 /* CribClient.swift */; };
+		BC81B11EE10874C4A6293499 /* CribFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B12EC55F33597929F533F /* CribFace.swift */; };
+		C7A47DC495462C1EE8AB888D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15800DC8C1D1C9F5BE92FB /* AppDelegate.swift */; };
+		C9F547048BCE48ED6C56BE54 /* CribCraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F7C492A82ADA7C7AF1A360 /* CribCraft.swift */; };
+		CBBC7410027123B63F971E09 /* HopUndo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E26ED53AAB215A409FBCF /* HopUndo.swift */; };
+		CCF3A3B3F9094AB5A12DA468 /* CribFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FC4C2C5849426EFBBE8026 /* CribFault.swift */; };
+		D0E08D6CC696EAE01D103302 /* CribWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D34F533064907CAE67F8AEB /* CribWatch.swift */; };
+		D335311DB641723130BFBBDF /* Hop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466DFF6FBA8E3C198AC4E105 /* Hop.swift */; };
+		D3BCDC16249DCD1EBD335147 /* TagMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C59C829173B606BF491AE /* TagMarkTests.swift */; };
+		DD9659DD6A5AC3814E46906A /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = EB80DED82BA902C96225D715 /* OneSignalExtension */; };
+		E5135A352D06BA50C40328A2 /* StallCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615188554AF04EE6BEC8250A /* StallCapture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1848E83F4625939B0FCEDBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430543FEC0AC5CD4B39BE522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFDC2E334683BC6C575DB31;
+			remoteInfo = Stallage;
+		};
+		5AEC327EC48E1E13B7AD1604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 430543FEC0AC5CD4B39BE522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7AC91C91703B7FE3261748;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6D62746EA9889E80004C48E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15EFBB89B10ABE6B19401ED2 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		070E26ED53AAB215A409FBCF /* HopUndo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopUndo.swift; sourceTree = "<group>"; };
+		09FC4C2C5849426EFBBE8026 /* CribFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribFault.swift; sourceTree = "<group>"; };
+		0D34F533064907CAE67F8AEB /* CribWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribWatch.swift; sourceTree = "<group>"; };
+		0FD9404B93DF340D3CC360EE /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		109D1080DC6C105C18CF2681 /* StallageTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StallageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C969BC8798FE8F453A117E /* CribStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribStoreTests.swift; sourceTree = "<group>"; };
+		165ED06360EE9DD79A3DA303 /* CribFigures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribFigures.swift; sourceTree = "<group>"; };
+		19484F4670A584146004B117 /* StallageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallageApp.swift; sourceTree = "<group>"; };
+		1E15800DC8C1D1C9F5BE92FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		251FEC44C3A29526008EC3EA /* TagMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMark.swift; sourceTree = "<group>"; };
+		25A01F7180224132E086D450 /* CribInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribInk.swift; sourceTree = "<group>"; };
+		31B7B32F928E38A1AFE6CB03 /* CribClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribClient.swift; sourceTree = "<group>"; };
+		3553E676B193F0805EE8DE41 /* LifecycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleView.swift; sourceTree = "<group>"; };
+		38921B2835CBF8AAC3DCA248 /* StallageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallageTests.swift; sourceTree = "<group>"; };
+		439A243D9B8D985330E603D8 /* Stall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stall.swift; sourceTree = "<group>"; };
+		466DFF6FBA8E3C198AC4E105 /* Hop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hop.swift; sourceTree = "<group>"; };
+		4A01EF907C66A37CD443FAF8 /* SeatHop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatHop.swift; sourceTree = "<group>"; };
+		4A166FB01D5BEBCC2E9825A7 /* OpenStallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenStallView.swift; sourceTree = "<group>"; };
+		52BEED22BAA4415746173C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		598C3DDDF6D1F152F0444959 /* CribMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribMark.swift; sourceTree = "<group>"; };
+		5B494151E48A90D867BF2460 /* CribSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribSegment.swift; sourceTree = "<group>"; };
+		5BEC00D27C733289617D86D4 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		615188554AF04EE6BEC8250A /* StallCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallCapture.swift; sourceTree = "<group>"; };
+		7336A246593CF5BC1AF0B894 /* CribClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribClientTests.swift; sourceTree = "<group>"; };
+		74FD9889C7F0993184B1D83D /* CribDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribDay.swift; sourceTree = "<group>"; };
+		7868DEA3FC1B589FC1657B06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A1917041A29C2322D44A7F9 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF988EACB2C0B4AF236441C /* CribStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribStore.swift; sourceTree = "<group>"; };
+		9E8BD8C71B9944C3364312D2 /* TagFuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFuse.swift; sourceTree = "<group>"; };
+		A8C1A8E0C5487FCAD3574346 /* CribWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribWatchTests.swift; sourceTree = "<group>"; };
+		AAA1E11501C7FB16D8428FD2 /* CribSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribSeed.swift; sourceTree = "<group>"; };
+		ABA09848511FCB3015E1042E /* CribShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribShell.swift; sourceTree = "<group>"; };
+		B1F7C492A82ADA7C7AF1A360 /* CribCraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribCraft.swift; sourceTree = "<group>"; };
+		B293FE50CAD59490AD03CFDA /* StallDuty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StallDuty.swift; sourceTree = "<group>"; };
+		B300797008FFE03F18D3692A /* HopTrailPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopTrailPane.swift; sourceTree = "<group>"; };
+		B64BD677BA63AFA04B68DB69 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		B98C999DB66AC33183BA4D56 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		BC803E0D9AD24C4B31F9AD8C /* CribCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribCodec.swift; sourceTree = "<group>"; };
+		BF6B3F020BBB75B428FD1A38 /* Crib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crib.swift; sourceTree = "<group>"; };
+		CD290F4B429E5EB90E080179 /* CribHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribHold.swift; sourceTree = "<group>"; };
+		CF821951221E430F81BAA7CB /* CribOnboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribOnboard.swift; sourceTree = "<group>"; };
+		D023A844F703A72ABA1E51A5 /* TagLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLine.swift; sourceTree = "<group>"; };
+		D3EBC671BAE4959DA9360A13 /* CribLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribLaunchTests.swift; sourceTree = "<group>"; };
+		DEB36A40707E1B4CEB7EB5EC /* Stallage.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Stallage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77553D0D1C4931E9BF4EB95 /* TrailMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailMark.swift; sourceTree = "<group>"; };
+		E85C59C829173B606BF491AE /* TagMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagMarkTests.swift; sourceTree = "<group>"; };
+		E9A7F1F703EAD2A6AF93FD52 /* SeatHopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatHopTests.swift; sourceTree = "<group>"; };
+		EB77D78420BEFFF7CD8B567A /* CribSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribSettings.swift; sourceTree = "<group>"; };
+		F56B12EC55F33597929F533F /* CribFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CribFace.swift; sourceTree = "<group>"; };
+		FD49D5B53D9B5501F8476A36 /* Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E959F276AA1F301BE0C346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8546B9FD9B982D6AC5A35699 /* Alamofire in Frameworks */,
+				8CCDE909FC3BECBD9880BEE5 /* OneSignalFramework in Frameworks */,
+				0126D4224A6676AB20428842 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC44569D146E6CC552E54947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9659DD6A5AC3814E46906A /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA249F5D2713E2A36CF9E3E /* Crib */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B3F020BBB75B428FD1A38 /* Crib.swift */,
+				31B7B32F928E38A1AFE6CB03 /* CribClient.swift */,
+				BC803E0D9AD24C4B31F9AD8C /* CribCodec.swift */,
+				B1F7C492A82ADA7C7AF1A360 /* CribCraft.swift */,
+				74FD9889C7F0993184B1D83D /* CribDay.swift */,
+				F56B12EC55F33597929F533F /* CribFace.swift */,
+				09FC4C2C5849426EFBBE8026 /* CribFault.swift */,
+				165ED06360EE9DD79A3DA303 /* CribFigures.swift */,
+				CD290F4B429E5EB90E080179 /* CribHold.swift */,
+				25A01F7180224132E086D450 /* CribInk.swift */,
+				598C3DDDF6D1F152F0444959 /* CribMark.swift */,
+				CF821951221E430F81BAA7CB /* CribOnboard.swift */,
+				AAA1E11501C7FB16D8428FD2 /* CribSeed.swift */,
+				5B494151E48A90D867BF2460 /* CribSegment.swift */,
+				EB77D78420BEFFF7CD8B567A /* CribSettings.swift */,
+				ABA09848511FCB3015E1042E /* CribShell.swift */,
+				9CF988EACB2C0B4AF236441C /* CribStore.swift */,
+				0D34F533064907CAE67F8AEB /* CribWatch.swift */,
+				4A01EF907C66A37CD443FAF8 /* SeatHop.swift */,
+				615188554AF04EE6BEC8250A /* StallCapture.swift */,
+			);
+			path = Crib;
+			sourceTree = "<group>";
+		};
+		264A31601DF259FE540BDF1D /* Stall */ = {
+			isa = PBXGroup;
+			children = (
+				4A166FB01D5BEBCC2E9825A7 /* OpenStallView.swift */,
+				439A243D9B8D985330E603D8 /* Stall.swift */,
+				B293FE50CAD59490AD03CFDA /* StallDuty.swift */,
+			);
+			path = Stall;
+			sourceTree = "<group>";
+		};
+		278C6375BC2F5CCA70A3583E /* TrailMark */ = {
+			isa = PBXGroup;
+			children = (
+				3553E676B193F0805EE8DE41 /* LifecycleView.swift */,
+				E77553D0D1C4931E9BF4EB95 /* TrailMark.swift */,
+			);
+			path = TrailMark;
+			sourceTree = "<group>";
+		};
+		2A9BAE65D5BECEACE08A958A /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B98C999DB66AC33183BA4D56 /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		3BC4987E04F3684F273D2246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1917041A29C2322D44A7F9 /* OneSignalNotificationServiceExtension.appex */,
+				DEB36A40707E1B4CEB7EB5EC /* Stallage.app */,
+				109D1080DC6C105C18CF2681 /* StallageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D68657E2BBF5D8F1F355B80 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				FD49D5B53D9B5501F8476A36 /* Seat.swift */,
+				B64BD677BA63AFA04B68DB69 /* Tag.swift */,
+				9E8BD8C71B9944C3364312D2 /* TagFuse.swift */,
+				D023A844F703A72ABA1E51A5 /* TagLine.swift */,
+				251FEC44C3A29526008EC3EA /* TagMark.swift */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		773A19270B6297A91BF936D9 /* Hop */ = {
+			isa = PBXGroup;
+			children = (
+				466DFF6FBA8E3C198AC4E105 /* Hop.swift */,
+				B300797008FFE03F18D3692A /* HopTrailPane.swift */,
+				070E26ED53AAB215A409FBCF /* HopUndo.swift */,
+			);
+			path = Hop;
+			sourceTree = "<group>";
+		};
+		B59AB425379E7D236FC7F5AF /* Stallage */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9404B93DF340D3CC360EE /* APIConfig.swift */,
+				1E15800DC8C1D1C9F5BE92FB /* AppDelegate.swift */,
+				52BEED22BAA4415746173C7A /* Assets.xcassets */,
+				7868DEA3FC1B589FC1657B06 /* ContentView.swift */,
+				19484F4670A584146004B117 /* StallageApp.swift */,
+				0BA249F5D2713E2A36CF9E3E /* Crib */,
+				773A19270B6297A91BF936D9 /* Hop */,
+				264A31601DF259FE540BDF1D /* Stall */,
+				6D68657E2BBF5D8F1F355B80 /* Tag */,
+				278C6375BC2F5CCA70A3583E /* TrailMark */,
+			);
+			path = Stallage;
+			sourceTree = "<group>";
+		};
+		D10D21931553BBC19D69C266 /* StallageTests */ = {
+			isa = PBXGroup;
+			children = (
+				7336A246593CF5BC1AF0B894 /* CribClientTests.swift */,
+				D3EBC671BAE4959DA9360A13 /* CribLaunchTests.swift */,
+				13C969BC8798FE8F453A117E /* CribStoreTests.swift */,
+				A8C1A8E0C5487FCAD3574346 /* CribWatchTests.swift */,
+				5BEC00D27C733289617D86D4 /* FamilyInvariantTests.swift */,
+				E9A7F1F703EAD2A6AF93FD52 /* SeatHopTests.swift */,
+				38921B2835CBF8AAC3DCA248 /* StallageTests.swift */,
+				E85C59C829173B606BF491AE /* TagMarkTests.swift */,
+			);
+			path = StallageTests;
+			sourceTree = "<group>";
+		};
+		D87E5BF49BA50168F6F1EC15 = {
+			isa = PBXGroup;
+			children = (
+				2A9BAE65D5BECEACE08A958A /* OneSignalNotificationServiceExtension */,
+				B59AB425379E7D236FC7F5AF /* Stallage */,
+				D10D21931553BBC19D69C266 /* StallageTests */,
+				3BC4987E04F3684F273D2246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700C20916E10E6043629CDDF /* StallageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B8C046EBAF48AF18C57F90 /* Build configuration list for PBXNativeTarget "StallageTests" */;
+			buildPhases = (
+				261D765DBF256B5DFC0ECDFE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07706AFA4981A6E43E1A18CC /* PBXTargetDependency */,
+			);
+			name = StallageTests;
+			packageProductDependencies = (
+			);
+			productName = StallageTests;
+			productReference = 109D1080DC6C105C18CF2681 /* StallageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFDC2E334683BC6C575DB31 /* Stallage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316145FE660CEE6E96AC1982 /* Build configuration list for PBXNativeTarget "Stallage" */;
+			buildPhases = (
+				4C90078F2B7F54A0DED1797A /* Sources */,
+				664DF1DE47B4FEDF6F78314C /* Resources */,
+				24E959F276AA1F301BE0C346 /* Frameworks */,
+				A6D62746EA9889E80004C48E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F530B4647A54BA3B86737A /* PBXTargetDependency */,
+			);
+			name = Stallage;
+			packageProductDependencies = (
+				7875937D8D0982AA76A06407 /* Alamofire */,
+				7B39061B66A990727807E3DF /* OneSignalFramework */,
+				E1EB75248FDD644B41731004 /* OneSignalInAppMessages */,
+			);
+			productName = Stallage;
+			productReference = DEB36A40707E1B4CEB7EB5EC /* Stallage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7AC91C91703B7FE3261748 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5434535DB61617C0DA0149A6 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				7D6AFC631138C8B8BF30DA60 /* Sources */,
+				EC44569D146E6CC552E54947 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				EB80DED82BA902C96225D715 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 7A1917041A29C2322D44A7F9 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		430543FEC0AC5CD4B39BE522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					700C20916E10E6043629CDDF = {
+						ProvisioningStyle = Automatic;
+					};
+					AAFDC2E334683BC6C575DB31 = {
+						ProvisioningStyle = Automatic;
+					};
+					CD7AC91C91703B7FE3261748 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFCA9EAF7EEC44FA28D849F5 /* Build configuration list for PBXProject "Stallage" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D87E5BF49BA50168F6F1EC15;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A124D069E2C1E07DBFDADE94 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0BD9D3F2969CF69E66DCD280 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3BC4987E04F3684F273D2246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFDC2E334683BC6C575DB31 /* Stallage */,
+				700C20916E10E6043629CDDF /* StallageTests */,
+				CD7AC91C91703B7FE3261748 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664DF1DE47B4FEDF6F78314C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA89F77FB7EA6C93BAF79D6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261D765DBF256B5DFC0ECDFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8687B0031592D59A74064C03 /* CribClientTests.swift in Sources */,
+				8621CBF808DB472FFBBF189B /* CribLaunchTests.swift in Sources */,
+				887F64DFABB986B5FD61978A /* CribStoreTests.swift in Sources */,
+				6032A42916460545D7E2AE37 /* CribWatchTests.swift in Sources */,
+				3D38769AD34909658BD00FAF /* FamilyInvariantTests.swift in Sources */,
+				64F923679E15F9FEE50EF214 /* SeatHopTests.swift in Sources */,
+				06C22F610F94EDAA0148B6D9 /* StallageTests.swift in Sources */,
+				D3BCDC16249DCD1EBD335147 /* TagMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C90078F2B7F54A0DED1797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47867A02F87ECCD8A32450FA /* APIConfig.swift in Sources */,
+				C7A47DC495462C1EE8AB888D /* AppDelegate.swift in Sources */,
+				8834948CBBDCCF1F1675A41C /* ContentView.swift in Sources */,
+				A805E14D7A8924C4B854BC76 /* Crib.swift in Sources */,
+				ADD757BE72A24A53F6F30BE9 /* CribClient.swift in Sources */,
+				5C1287289B357E189B0D1BB8 /* CribCodec.swift in Sources */,
+				C9F547048BCE48ED6C56BE54 /* CribCraft.swift in Sources */,
+				A3D6DE804617E8431E94BF0B /* CribDay.swift in Sources */,
+				BC81B11EE10874C4A6293499 /* CribFace.swift in Sources */,
+				CCF3A3B3F9094AB5A12DA468 /* CribFault.swift in Sources */,
+				9032BE72EE55CDBB63475A39 /* CribFigures.swift in Sources */,
+				3340839A431566C34FDC1BE9 /* CribHold.swift in Sources */,
+				61FF4A62BF7B88808198C721 /* CribInk.swift in Sources */,
+				4FF130F5E8810D2C717945FC /* CribMark.swift in Sources */,
+				254F84C4B9710DBB9166C080 /* CribOnboard.swift in Sources */,
+				585D21EFD12CC84F2687E84E /* CribSeed.swift in Sources */,
+				19E2CCE820F9708BF3F98023 /* CribSegment.swift in Sources */,
+				1CE34DA4A720627859750C30 /* CribSettings.swift in Sources */,
+				32307F69F4B9F7A439184516 /* CribShell.swift in Sources */,
+				3BA8E9E8B3247FFEA445389D /* CribStore.swift in Sources */,
+				D0E08D6CC696EAE01D103302 /* CribWatch.swift in Sources */,
+				D335311DB641723130BFBBDF /* Hop.swift in Sources */,
+				78847DEA50BBF6AC55835106 /* HopTrailPane.swift in Sources */,
+				CBBC7410027123B63F971E09 /* HopUndo.swift in Sources */,
+				1B1CABEAE72AC7334168FA42 /* LifecycleView.swift in Sources */,
+				A840AB4623CA4C4A5E9F99B5 /* OpenStallView.swift in Sources */,
+				27D8C83B8E823FBA51159445 /* Seat.swift in Sources */,
+				6882B206B09B71140ED28FF0 /* SeatHop.swift in Sources */,
+				A0804DC01938C27E1032894D /* Stall.swift in Sources */,
+				E5135A352D06BA50C40328A2 /* StallCapture.swift in Sources */,
+				6819FB818582B420D8A7AC72 /* StallDuty.swift in Sources */,
+				640EC4BBDA51D9DF4C1846D4 /* StallageApp.swift in Sources */,
+				A9B6419A8B9FC03EF228D7CD /* Tag.swift in Sources */,
+				7B95346033947A60E4F34CE2 /* TagFuse.swift in Sources */,
+				A990325D6E0ABC9B9D8F00A6 /* TagLine.swift in Sources */,
+				A7193FD548EA0095B0537B86 /* TagMark.swift in Sources */,
+				4968AFAC322B6AE97CCA7FE7 /* TrailMark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6AFC631138C8B8BF30DA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925B4B0D8B4729F9C84A0A55 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07706AFA4981A6E43E1A18CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFDC2E334683BC6C575DB31 /* Stallage */;
+			targetProxy = 1848E83F4625939B0FCEDBC8 /* PBXContainerItemProxy */;
+		};
+		72F530B4647A54BA3B86737A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7AC91C91703B7FE3261748 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 5AEC327EC48E1E13B7AD1604 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0079DFE4E12870B8AD419C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Stallage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Stallage-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Stallage;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Stallage uses the camera to read a barcode or QR on a tagged tool, cable, camera, or costume so it can be seated in a stall.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stallage.crib;
+				PRODUCT_NAME = Stallage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CF32098559429DE1DEB14FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		52D7D24914BCE95595835212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Stallage.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Stallage-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Stallage;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Stallage uses the camera to read a barcode or QR on a tagged tool, cable, camera, or costume so it can be seated in a stall.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stallage.crib;
+				PRODUCT_NAME = Stallage;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85517364FEFF95B27BF0C8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stallage.crib.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A316EA8D81FF8F795D18C28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stallage.crib.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stallage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stallage";
+			};
+			name = Release;
+		};
+		A893D02F10B41A1482A36207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		C433CDF57933233BD37DBEE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stallage.crib.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stallage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stallage";
+			};
+			name = Debug;
+		};
+		EAA35B615CBF5A1477FCA3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stallage.crib.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		316145FE660CEE6E96AC1982 /* Build configuration list for PBXNativeTarget "Stallage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D7D24914BCE95595835212 /* Debug */,
+				0079DFE4E12870B8AD419C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5434535DB61617C0DA0149A6 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85517364FEFF95B27BF0C8D4 /* Debug */,
+				EAA35B615CBF5A1477FCA3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6B8C046EBAF48AF18C57F90 /* Build configuration list for PBXNativeTarget "StallageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C433CDF57933233BD37DBEE6 /* Debug */,
+				A316EA8D81FF8F795D18C28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CFCA9EAF7EEC44FA28D849F5 /* Build configuration list for PBXProject "Stallage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A893D02F10B41A1482A36207 /* Debug */,
+				0CF32098559429DE1DEB14FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BD9D3F2969CF69E66DCD280 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+		A124D069E2C1E07DBFDADE94 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ymvmj7dsyy-stack/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7875937D8D0982AA76A06407 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A124D069E2C1E07DBFDADE94 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7B39061B66A990727807E3DF /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9D3F2969CF69E66DCD280 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		E1EB75248FDD644B41731004 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9D3F2969CF69E66DCD280 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		EB80DED82BA902C96225D715 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD9D3F2969CF69E66DCD280 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 430543FEC0AC5CD4B39BE522 /* Project object */;
+}

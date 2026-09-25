@@ -1,0 +1,10 @@
+Stallage is a dark, on-device crib for production and costume gear. Belongings live in named stalls as Tags so you can see where a tool, cable, camera, or costume sits and who last received it.
+
+• Named stalls with one open stall at a time; scan a barcode or QR (or type a code) to seat an unknown Tag, or hop a known Tag from another stall
+• Duties and statuses: In stall, Lent / Issued, Repair, Relinquished; Received by, if Lent records who received a Tag
+• Lifecycle ranks Issued Tags longer than 30 days as overdue, with Hops, Trail, Next hop, and Seated now
+• Focus a Tag to Peel the last hop, Remove it, or Relinquish to freeze hops; local Search names and codes with status filters All, In stall, Issued, Repair, Relinquished
+• On-device QR for Tags and stalls with Share QR; Stall then hop trail overview
+• Onboarding with Skip, Next, and Continue; Re-run onboarding and Reset all data from Settings; Contact opens support
+
+Inventory, stalls, Tags, hops, and trail stay on this device. Search and QR stay on this device.

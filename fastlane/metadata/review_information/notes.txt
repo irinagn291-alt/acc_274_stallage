@@ -1,0 +1,17 @@
+Camera permission is requested the first time Scan reaches the pre-permission screen and the user taps Continue. The system usage string is: Stallage uses the camera to read a barcode or QR on a tagged tool, cable, camera, or costume so it can be seated in a stall. If denied, the app shows Camera is off with Open Settings, and typing a code remains available. A system notification permission prompt may appear near cold launch with no custom in-app explanation screen. Photos, microphone, location, and tracking are not requested.
+
+There is no login, no in-app purchase, no public or shared user-generated content feed, no account deletion flow, and no App Tracking Transparency prompt.
+
+Stallage is a dark, on-device crib for production and costume gear. Belongings live in named stalls as Tags. It is for people who need to know where a tool, cable, camera, or costume sits and who last took it. No credentials or demo account are needed.
+
+Cold launch shows a brief dark screen. If onboarding is unfinished, a full-screen cover appears that cannot be dismissed by swipe. Use Next on pages 1 through 3, Continue on page 4, or Skip on any page. Continue or Skip finishes onboarding; if there are no stalls yet, Bench, Crew hold, and Repair pane are created. The main shell shows the segmented control Inventory, Lifecycle, and Settings (accessibility label Crib). On Inventory, select a stall chip so Scan is enabled, then tap Scan. On the Scan cover, tap Continue if shown for camera permission, or use Type or paste a code and Seat or hop. After seating an unknown code, Name this Tag may appear; use Continue or Later. To hop, open another stall and scan a known Tag. Open Lifecycle for overdue Issued Tags and hop trail. Open Settings to Add a stall, use Show stall QR from Inventory when a stall is open, open Stall then hop, Contact, Re-run onboarding, or Reset all data.
+
+Inventory, stalls, Tags, hops, trail, search, and QR remain on this device. Settings Contact opens the support page.
+
+There is no region lock. The UI is English only; dates follow the device locale.
+
+No licence or regulated-industry paperwork applies. The app is a personal on-device crib for gear Tags and does not provide professional certification, medical, or regulated services.
+
+The app is a personal log only and gives no recommendations. It shows no health, medical, fitness, or product-nutrition information.
+
+The app scans barcodes and QR codes. A scannable QR (qr-code.png) is attached to this review; it encodes Body 5D. Simulator users type Body 5D in Type or paste a code, then Seat or hop.

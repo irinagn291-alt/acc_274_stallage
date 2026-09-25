@@ -1,0 +1,1 @@
+Keep gear in named stalls as Tags. Scan a barcode or QR to seat or hop, track who received it, and rank Issued overdue on Lifecycle. Search and QR stay on this device.

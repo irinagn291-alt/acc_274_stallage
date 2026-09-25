@@ -1,0 +1,1 @@
+barcode,QR,inventory,costume,camera,gear,stall,tag,hop,trail,scan,crib,production,tool,cable

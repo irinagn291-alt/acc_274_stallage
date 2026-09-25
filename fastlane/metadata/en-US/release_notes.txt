@@ -1,0 +1,8 @@
+Version 1.0 introduces Stallage, an on-device crib for production and costume gear.
+
+• Inventory with stall chips, Tag status filters, Next scan guidance, Trail, and Scan to seat or hop
+• Scan into an open stall with camera or Type or paste a code; Name this Tag after a new seat
+• Lifecycle with Overdue, Hops, Trail, Next hop, Hop trail, and Seated now
+• Settings for Stalls, Add a stall, Stall then hop, Contact, Re-run onboarding, and Reset all data
+• Onboarding covering stalls, seats, hops, Lent, overdue, freeze, and on-device QR
+• Camera permission for barcode and QR reading; notifications may be requested near launch
